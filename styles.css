@@ -35,9 +35,12 @@ h4 { font-family: "Times New Roman", Verdana, Arial, sans-serif; color: #656565;
 */
 
 #photo {
-    
-    width: 200px;
-    margin-left:70px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
 }
 #photo img {
     -webkit-border-radius: 3px;
@@ -70,7 +73,7 @@ small { font-family: "Arial", "Droid Serif", serif; color: #656565; font-size: 1
 ul { display: block; list-style: none; }
 ul li { padding-left: 45px; list-style-type: none; vertical-align: top; background: url('images/bullet.png') 25px 5px no-repeat; margin-bottom: 5px; font-family: "Arial", "Droid Serif", serif; color: #666; font-size: 1.8em; line-height: 2.3em; }
 
-img { border: 0; max-width: 148px; }
+img { border: 0; max-width: 200px; }
 
 a { color: #5582d6; text-decoration: none; 
 
